@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("img/bgImg.jpg");
+}
+.game {
+  text-align: center;
+  margin: 150px 0px 25px 0px;
+}
+.winner {
+  font-family: "Sixtyfour", sans-serif;
+  font-size: 40px;
+  color: lavender;
+}
+.tag {
+  font-family: "Honk", system-ui;
+  font-size: 70px;
+}
+.hide {
+  display: none;
+}
+.containerBtn {
+  display: flex;
+  justify-content: center;
+}
+.gameBtn {
+  width: 200px;
+  height: 40px;
+  margin: 0px 0px 40px 21px;
+  border: none;
+  background-color: #a9e4f7;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.gameBtn:hover {
+  background-color: cadetblue;
+}
+
+.main {
+  justify-content: center;
+  display: flex;
+}
+.container {
+  width: 285px;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 95px;
+  height: 60px;
+  background-color: #ffffff29;
+  font-size: 7vmin;
+  border-color: black;
+  cursor: pointer;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  border-top: none;
+}
+
+.btn7,
+.btn8,
+.btn9 {
+  border-bottom: none;
+}
+
+.btn3,
+.btn6,
+.btn9 {
+  border-right: none;
+}
+
+.btn1,
+.btn4,
+.btn7 {
+  border-left: none;
+}
+
+.btn:active {
+  background-color: cornflowerblue;
+}
+
+.Js-Ocolor {
+  color: #f71303;
+}
+
+.js-Xcolor {
+  color: #d0fb05;
+}
